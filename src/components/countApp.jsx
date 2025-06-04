@@ -1,6 +1,6 @@
 import "../styles.css";
 import React, { useState } from "react";
-export default function App() {
+function Count() {
   const [count, setCount] = useState(1);
   function increase() {
     setCount(count + 1);
@@ -18,3 +18,4 @@ export default function App() {
     </div>
   );
 }
+export default Count;

@@ -14,8 +14,10 @@ function TimeApp() {
   setInterval(updateTime, 1000);
   return (
     <div>
-      <h1>{timeNow}</h1>
-      <button onClick={updateTime}>Get Time</button>
+      <h1 className="h1">{timeNow}</h1>
+      <button className="button" onClick={updateTime}>
+        Get Time
+      </button>
     </div>
   );
 }
